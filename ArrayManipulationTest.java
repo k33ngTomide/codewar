@@ -1,5 +1,5 @@
 package src;
-import src.ArrayManipulation.squareArray;
+import ArrayManipulation.squareArray;
 
 public class ArrayManipulationTest {
     
@@ -7,7 +7,7 @@ public class ArrayManipulationTest {
     public void testArrayManipulation(){
     
 	    int[] given = {3, 4, 4, 6, 7};
-	    int[] actual = squareArray(given);
+	    int[] actual = ArrayManipulation.squareArray(given);
 	    	
 	    int[] expected = {9, 16, 25, 36, 49};
 	    	
